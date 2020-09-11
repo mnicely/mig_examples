@@ -11,7 +11,7 @@ all: $(SOURCES)
 .PHONY: all
 
 mig_example: mig.cu
-        $(NVCC) $(CFLAGS) $(INC_DIR) $(LIB_DIR) ${ARCHES} $^ -o $@ $(LIBS)
-        
+	$(NVCC) $(CFLAGS) $(INC_DIR) $(LIB_DIR) ${ARCHES} $^ -o $@ $(LIBS)
+	
 clean:
-        rm -f $(SOURCES)
+	rm -f $(SOURCES)
