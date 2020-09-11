@@ -80,3 +80,9 @@ PIDS=()
 
 # Known Bugs
 Instance IDs are not static causing a mismatch with profile ID.
+
+## Fix
+Modify the following line to match GPU Instance IDs
+```bash
+declare GI_IDS=( "0" "1" "2" "5" "13")
+```
