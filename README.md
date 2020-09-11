@@ -86,3 +86,14 @@ Modify the following line to match GPU Instance IDs
 ```bash
 declare GI_IDS=( "0" "1" "2" "5" "13")
 ```
+You want to make sure Profile ID `declare MIG_MODE=( "0" "5" "9" "14" "19" )` and GPU Instance ID line up.
+
+```bash
++----------------------------------------------------+
+| GPU instances:                                     |
+| GPU   Name          Profile  Instance   Placement  |
+|                       ID       ID       Start:Size |
+|====================================================|
+|   0  MIG 2g.10gb      14        5          4:2     |
++----------------------------------------------------+
+```
