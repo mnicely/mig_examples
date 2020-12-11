@@ -3,7 +3,7 @@
 This example utilize the following toolsets:
 * Multi Instance GPUs (Ampere+) [User Guide](https://docs.nvidia.com/datacenter/tesla/mig-user-guide/index.html)
 * NVIDIA Management Library (NVML) [User Guide](https://docs.nvidia.com/deploy/nvml-api/index.html)
-
+* [SLURM](https://slurm.schedmd.com/quickstart.html) (Optional)
 ## Description
 The purpose of this example is to provide a better understanding of how to launch applications to MIG instance using a bash script.
 
